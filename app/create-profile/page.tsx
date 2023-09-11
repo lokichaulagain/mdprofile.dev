@@ -4,6 +4,7 @@ import { createStyles, Title, Text, Button, Container, rem, Input } from "@manti
 import TwitterIcon from "../components/svgIcons/TwitterIcon";
 // import { Dots } from './Dots';
 import TurndownService from "turndown";
+import Introduction from "../components/sections/Introduction";
 
 const useStyles = createStyles((theme) => ({
   wrapper: {
@@ -138,13 +139,15 @@ export default function page() {
     <Container
       className={classes.wrapper}
       size={960}>
-      <div>
+      {/* <div>
         <div className="flex items-center gap-1">
           <TwitterIcon />
           <span className=" font-semibold">Enter your name</span>
         </div>
         <Input onChange={(e: any) => setName(e.target.value)} />
-      </div>
+      </div> */}
+
+      <Introduction/>
       <p>{markdouncontent}</p>
     </Container>
   );

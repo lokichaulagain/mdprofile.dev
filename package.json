@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@mantine/core": "^6.0.17",
+    "@tabler/icons-react": "^2.30.0",
     "@types/node": "20.4.8",
     "@types/react": "18.2.18",
     "@types/react-dom": "18.2.7",
